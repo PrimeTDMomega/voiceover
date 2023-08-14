@@ -1,0 +1,70 @@
+/* Import Foundation styles */
+@import url('https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color for dark mode */
+}
+
+.navbar {
+    background-color: #0d0d0d; /* Darker navbar background color */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-logo, .navbar-links {
+    display: contents;    
+    align-items: center;
+}
+
+.navbar-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.navbar-link {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.navbar-icon-link {
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #333; /* Dark container background color */
+}
+
+#text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555; /* Darker border color */
+    border-radius: 5px;
+    background-color: #1a1a1a; /* Dark textarea background color */
+    color: #fff; /* Text color for dark mode */
+}
+
+#speak-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#speak-button:hover {
+    background-color: #0056b3;
+}

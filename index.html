@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech App</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-links">
+            <a href="#" class="navbar-link">Home</a>
+            <a href="https://dsc.gg/witheredknights/" class="navbar-link">Discord</a>
+            <a href="https://github.com/PrimeTDMomega/voiceover/" class="navbar-link">GitHub</a>
+
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>VoiceOver</h1>
+        <p>Convert text to speech without an annoying paywall in the middle with choice of multiple voices.</p>
+        <div class="input-container">
+            <button id="speak-button" class="button">Speak</button>
+            <br>
+        </div>
+        <textarea id="text-input" placeholder="Enter text..."></textarea>
+    </div>
+    <div id="foo">
+        <select id="voice-select" class="voice-select">
+        <!-- List of available voices -->
+            <option value="UK English Female">UK English Female</option>
+            <option value="UK English Male">UK English Male</option>
+            <option value="US English Female">US English Female</option>
+            <option value="US English Male">US English Male</option>
+            <option value="Australian Female">Australian Female</option>
+            <option value="Australian Male">Australian Male</option>
+            <option value="Indian Female">Indian Female</option>
+            <option value="Spanish Female">Spanish Female</option>
+            <option value="Spanish Male">Spanish Male</option>
+            <option value="French Female">French Female</option>
+            <option value="French Male">French Male</option>
+        <!-- Add more options for other voices here -->
+        </select>
+    </div>
+
+    <footer class="footer">
+        <a href="https://github.com/PrimeTDMomega/" target="_blank">Made by PrimeTDMomega</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=TRYING_TO_STEAL_MY_API_KEY?"></script>
+
+</body>
+</html>
